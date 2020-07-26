@@ -8,6 +8,7 @@ calculate_distance.py : calculate the distance between the customers location an
 InviteList.txt : final sorted list containing Names and User Id of the cuatomers to be invited.
 
 To execute : 
-1. Download and install anaconda (https://docs.anaconda.com/anaconda/install/) 
-2. Download all the files into a folder 
-3. To execute the code run create_invite_list.py which will call other files and create the output file.
+1. Download and install Anaconda3 (https://docs.anaconda.com/anaconda/install/) 
+2. Download all the python files and customer.txt file into a folder under Anaconda3 
+3. To execute the code open the Anaconda3 prompt > move to the folder created (cd "filename") > run create_invite_list.py (python create_invite_list.py)
+4. Output will be saved in the same folder.
