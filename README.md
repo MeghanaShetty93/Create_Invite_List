@@ -7,4 +7,7 @@ create_invite_list.py : Check whether the  distance between the customers locati
 calculate_distance.py : calculate the distance between the customers location and dublin office using great_circle distance formula.
 InviteList.txt : final sorted list containing Names and User Id of the cuatomers to be invited.
 
-
+To execute : 
+1. Download and install anaconda (https://docs.anaconda.com/anaconda/install/) 
+2. Download all the files into a folder 
+3. To execute the code run create_invite_list.py which will call other files and create the output file.
