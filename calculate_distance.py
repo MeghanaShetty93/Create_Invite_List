@@ -6,6 +6,7 @@
 
 from math import radians, degrees, sin, cos, asin, acos, sqrt
 
+#calculate the distance using Great-circle distance
 def calculate_great_circle(lon1,lat1,lon2,lat2):
     lon1, lat1, lon2, lat2 = map(radians, [float(lon1), float(lat1), float(lon2), float(lat2)])
     distance = 6371 * (acos(sin(lat1) * sin(lat2) + cos(lat1) * cos(lat2) * cos(lon1 - lon2)))
