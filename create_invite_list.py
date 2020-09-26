@@ -28,6 +28,9 @@ def invite_list():
             #Print the customers name and user_id
             inviteDict =  {"Name" : customer["name"], "User Id" : customer["user_id"]}
             inviteList.append(inviteDict)
+            
+        else:
+            print("No customers available within 100 km range")
 
     #sorted customer list according to user_id 
     sortedInviteList = sorted(inviteList, key=itemgetter('User Id')) 
